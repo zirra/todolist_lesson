@@ -1,9 +1,19 @@
 <template>
   <div id="app">
     <navigation />
+    <image />
     <router-view/>
   </div>
 </template>
+
+<script>
+import Navigation from './components/navigation/Navigation'
+
+
+  export default {
+    components: {Navigation}
+  }
+</script>
 
 <style>
 #app {
