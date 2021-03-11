@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <navigation />
-    <image />
-    <router-view/>
+    <banner-image />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Navigation from './components/navigation/Navigation'
-
+import BannerImage from './components/Image/BannerImage'
 
   export default {
-    components: {Navigation}
+    components: {
+      Navigation, 
+      BannerImage
+    }
   }
 </script>
 

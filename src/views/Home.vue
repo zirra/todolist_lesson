@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="WW logo" src="../assets/Wonder-Woman-banner_200107_115242.png">
     <HelloWorld msg="This is My Bad Ass Page. I Can Do All Things."/>
   </div>
 </template>
