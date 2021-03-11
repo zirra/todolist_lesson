@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ "This is My Bad Ass Page. I Can Do All Things." }}</h1>
+    <h1>{{ msg }}</h1>
     <p>
       A glimpse of all the cool things that I'm currently in to. 
     </p>
@@ -31,7 +31,14 @@
 </template>
 
 <script>
-
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: {
+      type: String
+    }
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
