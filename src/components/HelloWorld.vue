@@ -1,11 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      A glimpse of all the cool things that I'm currently in to. 
-    </p>
-
-
+    
+      <h4>A glimpse of all the cool things that I'm currently in to.</h4> 
+  
 <div class="box-1">
     <h3>Taekwondo</h3>
     <img alt="Taekwondo logo" src="../assets/images-wixmp-ed30a86b8c4ca887773594c2_wixmp_com-dddq35g-e23f4908-95a3-4af7-bc7b-e34000f5ed7f.png">
@@ -52,6 +50,10 @@ img {
   width: 20%;
 }
 
+h1 {
+  color: blue;
+}
+
 * {
   background-color: yellow;
 }
@@ -61,7 +63,7 @@ img {
   display: flex;
 	justify-content: left;
 	margin-bottom: -9px;
-	padding: 11px;	
+	padding: 11px;
 }
 
 .box-1 ul{
@@ -128,7 +130,8 @@ h3 {
   display: flex;
 	justify-content: left;
 	margin-bottom: -9px;
-	padding: 10px;	
+	padding: 10px;
+  color: blue;	
 }
 
 ul{
@@ -139,6 +142,7 @@ ul{
 	padding: 11px;
 }
 
+
 ol li {
   display: list-item;
 }
@@ -147,7 +151,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: red;
 }
 </style>
 
