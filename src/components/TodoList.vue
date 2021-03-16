@@ -41,8 +41,9 @@ h2 {
 
 #horizontal {
  width: 50%;
- color: silver;
+ border-top: 1px solid silver;
  float: left;
+ margin-top: auto;
 }
 
 p {
