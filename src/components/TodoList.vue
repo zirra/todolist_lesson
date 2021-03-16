@@ -23,10 +23,26 @@
 
     <p>I love fitness and technology! The combination of the two are majestic and are great ways to keep my body and mind fit. Being physically fit, strong and creative are my super powers. BOOM!! POW!!</p><br>
 
+<div id="primary" class="widget-area" role="complementary">
+  <aside id="search-16" class="widget widget_search">
+    <form role="search" method="get" class="search-form">
+      <label>
+        <span class="screen-reader-text">Search for:</span>
+        <input type="field" class="search-field" placeholder="Search ..." value name="s">
+      </label>
+      <input type="submit" class="search-submit" value="Search">
+    </form>
+  </aside>
+
+    </div>
+
   </div>
+
+
 </template>
 
 <script>
+
 
 </script>
 
@@ -56,4 +72,15 @@ h5 {
   color: red;
 }
 
+.widget-area {
+  width: 170%;
+  margin-top: -810px;
+  margin-left: 70px;
+}
+
+.widget_search .search-field {
+  background: #fff;
+    border: 1px solid #ddd;
+    font-family: "Lato",sans-serif; 
+}
 </style>

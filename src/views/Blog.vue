@@ -2,6 +2,7 @@
   <div class="blog">
     <todo-list />
   </div>
+    
 </template>
 
 <script>
