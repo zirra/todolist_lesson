@@ -48,6 +48,7 @@ img {
 }
 .box-1 img{
   width: 20%;
+  box-shadow: 20px 10px 10px grey;
 }
 
 h1 {
@@ -81,6 +82,7 @@ h1 {
   display: flex;
   margin: auto;
   justify-content: center;
+  box-shadow: 20px 10px 10px grey;
 }
 
 .box-2 ul{
@@ -107,6 +109,7 @@ h1 {
   margin-top: -10px;
   margin-left: 950px;
 	padding: 10px;	
+  box-shadow: 20px 10px 10px grey;
 }
 
 .box-3 ul{

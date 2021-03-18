@@ -33,8 +33,9 @@
       <input type="submit" class="search-submit" value="Search">
     </form>
   </aside>
+</div>
 
-    </div>
+
 
   </div>
 
