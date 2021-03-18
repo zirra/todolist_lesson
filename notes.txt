@@ -15,3 +15,8 @@
   html: `<p>I first began Taekwondo on November 10th, 2020 for two reasons: the 1st reason was out of sheer boredom and the 2nd reason was that my cousin recently announced on Facebook that he earned his blackbelt after 4.5 years. Sooooo naturally I guess I thought it was time for me to commit myself to the martial arts. From November through March 4th, I trained as a white belt and earned my skill stripes accordingly. On March 5th, I tested for my yellow belt and passed! I am currenly a yellow belt in training! I am having so much fun and I thoroughly enjoy moving my body.</p><br>`
 
 }
+
+the html property in the data sructure uses the
+` tick mark, not a single quote '
+
+so its `and raw html in here` very important, it will allow html characters inside it that wont require escape characters
