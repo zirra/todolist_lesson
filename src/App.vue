@@ -1,12 +1,22 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <navigation />
+    <banner-image />
+    <router-view />
   </div>
 </template>
+
+<script>
+import Navigation from './components/navigation/Navigation'
+import BannerImage from './components/Image/BannerImage'
+
+  export default {
+    components: {
+      Navigation, 
+      BannerImage
+    }
+  }
+</script>
 
 <style>
 #app {
@@ -23,10 +33,10 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: blue;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: red;
 }
 </style>
