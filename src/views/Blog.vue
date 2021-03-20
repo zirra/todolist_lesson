@@ -1,8 +1,9 @@
 <template>
   <div class="blog">
     <todo-list />
-  </div>
     
+  </div>
+
 </template>
 
 <script>
@@ -13,6 +14,14 @@ export default {
     TodoList
   }   
 }
+
+const id = [1, 2, 3];
+    const post= {
+      id: 1,
+      title: `How did you Taekwon-do that???`,
+      date: `March 14, 2021`
+    };
+
 </script>
 
 <style>
