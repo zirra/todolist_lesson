@@ -15,6 +15,8 @@ export default {
   }   
 }
 
+/*I'll update your notes*/
+
 const id = [1, 2, 3];
     const post= {
       id: 1,
